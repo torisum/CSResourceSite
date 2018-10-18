@@ -1,9 +1,10 @@
 body{
-  background: url('images/back.jpg') no-repeat center center fixed;
+  /*background: url('images/back.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: rgb(223, 63, 66);
 }
 
 #Login-square{
@@ -39,7 +40,7 @@ body{
 #enter{
   font-size: 15px;
   font-weight: normal;
-  color: rgb(145, 159, 151);
+  color: rgb(145, 145, 145);
 }
 
 #name{
@@ -58,6 +59,15 @@ body{
 }
 
 .adjectives{
-  color: rgb(89, 170, 250);
+  color: rgb(243, 83, 86);
   margin: auto;
+}
+
+
+.input-bar{
+  height: 25px;
+  width: 200px;
+  background-color: rgb(215, 215, 215);
+  outline-width: 0;
+  border-color: transparent;
 }

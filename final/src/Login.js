@@ -9,6 +9,7 @@ import Route from 'react-router-dom/Route'
 class Login extends Component {
   render() {
     return (
+    <div id="back">
       <div id="Login-square">
         <div id= "left-side-login">
 
@@ -18,14 +19,25 @@ class Login extends Component {
               <p class="adjectives">Adjective</p>
               <p class="adjectives">Other Adjective</p>
               <p class="adjectives">Last Adjective</p>
-            
           </div>
         </div>
         <div id="right-side-login">
           <p id="hello">Hello</p>
           <p id="enter">Enter your Login information.</p>
+          <form>
+            <p>Username:</p>
+              <input type="text" name="firstname" class="input-bar"/>
+              <br></br>
+              <br></br>
+            <p>Password:</p>
+              <input type="text" name="lastname" class="input-bar"/>
+              <br></br>
+              <br></br>
+            <input type="submit"/>
+          </form>
         </div>
       </div>
+    </div>
     );
   }
 }
